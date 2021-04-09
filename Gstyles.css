@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: roboto, segoe ui,tahoma, sans-serif;
+    width: 100%;
+}
+
+header{
+    margin: 1em;
+}
+
+nav{
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 20%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav button{
+    background: #4880d8;
+    border: 1px solid #9098a8;
+    height: 1.6em;
+    width: 4rem;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    border: transparent;
+    background-color: #e8e8e8dc;
+    text-decoration: underline;
+    border-radius: 4px;
+    width: 3rem;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 28px;
+    border-radius: 35px;
+    border: 1px solid #b0b0b8;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.bttn{
+    margin: .6em;
+}
+
+.bttn button{
+    background-color: #e8e8e8dc;
+    border: none;
+    border-radius: 3px;
+    font-size: smaller;
+    padding: 5px 5px;
+    margin: 2px 5px;
+}
+
+.language{
+    font-size: small;
+}
+
+.language a{
+    margin: 4px;
+    text-decoration: none;
+    color: #08158a;
+}
+
+.language a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background: #e8e8e8;
+    font-size: smaller;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-top{
+    padding: 1em;
+}
+
+.footer-base{
+    padding: 1em;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left a, .right a{
+    margin-right: 1em;
+}

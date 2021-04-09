@@ -1,0 +1,65 @@
+/* for smaller screen*/
+@media screen and (max-width: 630px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        margin-left: 80%;
+    }
+
+    nav a{
+        padding: 5px 10px;
+    }
+
+    nav:active{
+        color: #08158a;
+    }
+
+    nav button{
+        visibility: hidden;
+    }
+
+    input{
+        width: 110%;
+    }
+/* the google search and i am feeling lucky buttons are hidden*/
+    .bttn{
+        visibility: hidden;
+    }
+
+    div .bttn{
+        display: none;
+    }
+
+    .language p{
+        flex-direction: row;
+        width: 130%;
+        margin-top: 1em;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-base{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hide, .sponsor{
+        visibility: hidden;
+    }
+
+    .left{
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .right{
+        margin-left: 50px;
+        text-align: center;
+    }
+}
